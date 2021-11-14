@@ -4,16 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/dominic">
+    tools:context=".LoginActivity"
+    >
    <com.google.android.material.card.MaterialCardView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        app:contentPadding="10dp"
        android:layout_margin="15dp"
-       android:layout_gravity="center"
-       app:cardBackgroundColor="@android:color/transparent"
-       app:cardElevation="0dp">
+       android:layout_gravity="center">
 
 
        <LinearLayout
@@ -59,15 +57,16 @@
                android:id="@+id/login"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:text="LOGIN"
-               android:textAppearance="?android:textAppearanceMedium" />
+               android:text="LOGIN" />
 
-           <com.google.android.material.button.MaterialButton
+           <TextView
                android:id="@+id/register"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:text="Register"
-               android:textAppearance="?android:textAppearanceMedium" />
+               android:text="Register?"
+               />
+
+
 
 
        </LinearLayout>
